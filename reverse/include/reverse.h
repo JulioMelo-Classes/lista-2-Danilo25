@@ -11,7 +11,14 @@ using std::sort;
 namespace graal {
 
 /*! 
- * TODO: documentação no estilo doxygen
+ * @tparam BidirIt iterator para o range.
+ * @tparam std::iter_swap(const T &a, const T &b) troca os valores entre os ponteiros
+ *
+ * @param first Ponteiro para o primeiro elemento do range
+ * @param last Ponteiro para a posição logo após o último elemento do range
+ * 
+ * @param i caminhara pelo range para determinar o tamanho
+ * @param t determina se o range terá um numero par ou impar a serem trocados
  */
 template<class BidirIt>
 void reverse(BidirIt first, BidirIt last)
