@@ -1,0 +1,3 @@
+C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find_if/build/CMakeFiles/run_tests.dir
+C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find_if/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find_if/build/CMakeFiles/ZERO_CHECK.dir
