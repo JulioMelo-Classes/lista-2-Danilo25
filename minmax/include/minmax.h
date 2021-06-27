@@ -20,6 +20,13 @@ namespace graal {
  * @param last Ponteiro para a posição logo após o último elemento do range
  * @param cmp A função de comparação que retorna true quando o primeiro parâmetro é menor do que o segundo
  *
+ * @param min Ponteiro que guarda o valor da primeira ococrrencia do menor valor
+ * @param max Ponteiro que guarda o valor da ultima ococrrencia do maior valor
+ * 
+ * @param minc guarda o valor do menor
+ * @param maxc guarda o valor do maior
+ * @param c guarda a quantidade de valores menores para determinar o menor e maior
+ * 
  * @return Um std::pair contendo o menor e maior elemento, nesta ordem
  *
  */
