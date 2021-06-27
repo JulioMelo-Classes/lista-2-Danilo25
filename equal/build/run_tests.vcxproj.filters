@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\danil\OneDrive\Área de Trabalho\BTI\2021.1\LP1\lista-2-Danilo25\test_manager\src\test_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\danil\OneDrive\Área de Trabalho\BTI\2021.1\LP1\lista-2-Danilo25\equal\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\danil\OneDrive\Área de Trabalho\BTI\2021.1\LP1\lista-2-Danilo25\equal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A9A5D3A9-90AC-3B55-9EC5-8693A5409190}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
