@@ -1,0 +1,10 @@
+^C:\USERS\DANIL\ONEDRIVE\ÁREA DE TRABALHO\BTI\2021.1\LP1\LISTA-2-DANILO25\FIND\BUILD\CMAKEFILES\B7938A79E4818236406A05B4CB4C6F46\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find" "-BC:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/danil/OneDrive/Área de Trabalho/BTI/2021.1/LP1/lista-2-Danilo25/find/build/GraalLibrary.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
