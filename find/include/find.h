@@ -19,6 +19,9 @@ namespace graal {
  * 
  * @param pos: ponteiro que caminhara pelo range para comparar com o value e retornar sua posição
  */
+ /*
+ 0,95 faltou documentar o return
+ */
 template<class InputIt, class T, class Equal>
 InputIt find(InputIt first, InputIt last, const T& value, Equal eq)
 {

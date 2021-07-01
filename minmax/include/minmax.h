@@ -31,11 +31,13 @@ namespace graal {
  *
  */
 
-
+/*
+blz
+*/
 template <typename Itr, typename Compare >
 std::pair<Itr, Itr> minmax( Itr first, Itr last, Compare cmp )
 {
-    Itr min=first,
+    Itr min=first, //não conhecia esse formato de indentação, mas ok.
         max=first;
 
     int minc=*first,

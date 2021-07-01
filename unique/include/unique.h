@@ -21,7 +21,9 @@ namespace graal {
  * @param pos ponteiro que caminhara pelo range a procura de valores iguais
  * @param posc ponteiro que será comparado
  */
-
+/*
+15% pela documentação faltando o return
+*/
 template<class InputIt, class Equal>
 InputIt unique( InputIt first, InputIt last, Equal eq )
 {
@@ -38,7 +40,7 @@ InputIt unique( InputIt first, InputIt last, Equal eq )
         }
     }
     
-    return pos;
+    return pos;//vc retorna sempre first, não vou considerar
 }
 
 }

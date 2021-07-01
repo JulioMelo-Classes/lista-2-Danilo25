@@ -24,6 +24,9 @@ namespace graal {
  * @param max Ponteiro que guarda o segundo valor a ser comparado
  *
  */
+ /*
+ ok
+ */
 template<class ForwardIt, class Comparison>
 void sort(ForwardIt first, ForwardIt last, Comparison cmp)
 {

@@ -20,6 +20,9 @@ namespace graal {
  * @param i caminhara pelo range para determinar o tamanho
  * @param t determina se o range terá um numero par ou impar a serem trocados
  */
+ /*
+ ok
+ */
 template<class BidirIt>
 void reverse(BidirIt first, BidirIt last)
 {

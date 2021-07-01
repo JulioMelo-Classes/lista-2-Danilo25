@@ -15,6 +15,9 @@ namespace graal {
  * @param pos: ponteiro que caminhara pelo range para realizar as verificações
  */
 
+/*
+90% a documentação ficou incompleta
+*/
 template<class InputIt, class UnaryPredicate>
 bool all_of(InputIt first, InputIt last, UnaryPredicate p)
 {

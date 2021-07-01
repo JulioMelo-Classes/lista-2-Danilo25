@@ -21,6 +21,9 @@ namespace graal {
  * @param pos: ponteiro que caminhara pelo range para verificar a condição e retornar sua posição
  * 
  */
+ /*
+ 95%
+ */
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
 {
